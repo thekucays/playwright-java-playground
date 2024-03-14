@@ -45,6 +45,9 @@ public class App {
 
     @Test
     void checkoutFlashSale(){
+        /*
+            checkout using Promo Flash Sale
+        */
         HomePage homePage = new HomePage(page);
         homePage.navigate();
         homePage.checkoutItem();
@@ -65,6 +68,9 @@ public class App {
 
     @Test
     void checkoutNoPromo(){
+        /*
+            checkout without using promo
+        */
         HomePage homePage = new HomePage(page);
         homePage.navigate();
         homePage.checkoutItem();
@@ -85,6 +91,11 @@ public class App {
 
     @Test
     void checkoutPromoEmpty(){
+        /*
+            checkout using Promo Testing
+            - promo quota is empty
+            - so expecting to see popup telling that promo empty
+        */
         HomePage homePage = new HomePage(page);
         homePage.navigate();
         homePage.checkoutItem();
