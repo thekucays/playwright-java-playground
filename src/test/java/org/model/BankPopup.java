@@ -34,8 +34,6 @@ public class BankPopup{
 
         final int amountOnScreen = Integer.parseInt(labelAmount.innerText().replaceAll("\\.00$", ""));
         if(amountOnScreen != amountToPay){
-            System.out.println(">>> amount on screen: " + amountOnScreen);
-            System.out.println(">>> amount to pay: " + amountToPay);
             throw new RuntimeException("amount is not correct");
         }
 
