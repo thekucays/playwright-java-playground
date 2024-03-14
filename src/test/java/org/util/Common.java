@@ -1,4 +1,4 @@
-package org.example;
+package org.util;
 
 public class Common {
     public static int getRawTotal(String price){

@@ -1,2 +1,5 @@
-org/example/Common.class
+org/util/Common.class
+org/model/CheckoutPopup.class
+org/model/HomePage.class
 org/example/App.class
+org/model/BankPopup.class
